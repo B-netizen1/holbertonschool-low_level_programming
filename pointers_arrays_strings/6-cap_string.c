@@ -11,7 +11,7 @@ int is_separator(char c)
 	char *sep;
 	int i;
 
-	sep = "\t\n,;.!?\"(){}";
+	sep = " \t\n,;.!?\"(){}";
 	for (i = 0; sep[i] != '\0'; i++)
 	{
 		if (c == sep[i])
